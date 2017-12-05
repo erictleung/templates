@@ -12,6 +12,8 @@ example : ## Example make rule
     echo "Here!"
 ```
 
+Example Use
+-----------
 
 ```bash
 $ make
