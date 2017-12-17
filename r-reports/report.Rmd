@@ -1,0 +1,18 @@
+---
+title: "RMarkdown Report Template"
+author: "John Smith"
+date: "1993 August"
+output:
+    html_document:
+        toc: true
+        toc_float: true
+---
+
+```{r Setup, include=FALSE}
+# Global parameters
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla lorem. In vulputate molestie elit vel finibus. Donec ligula purus, varius vel tincidunt id, bibendum nec dolor. Integer venenatis justo non neque euismod, ut ullamcorper justo scelerisque. Cras et diam massa. Duis vel tempor velit, vitae scelerisque metus. Etiam nec scelerisque nisi, ut dictum ligula. Sed quis elit urna. Cras lobortis neque at sapien finibus, eget fringilla elit pulvinar. Cras consequat quis ipsum sit amet mollis. Morbi imperdiet dapibus nibh vel accumsan. Sed fermentum faucibus urna ut sagittis.
