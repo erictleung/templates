@@ -1,14 +1,18 @@
 # Sample Makefile
 
-example : ## This is an example
+## example : This is an example
+example :
 	echo "Hello, World!"
 
 .PHONY : help example
 
-help : ## Help page for Makefile
-	@grep -E '^[a-zA-Z_-]+ : .*?## .*$$' $(MAKEFILE_LIST) | \
-	sort | \
-	awk 'BEGIN { FS = ":.*?## " }; \
-	    { printf "\33[36m%-30s\033[0m %s\n", $$1, $$2 }'
-
+## help : Help page for Makefile
+help :
+	@echo ""
+	@echo "Usage:"
+	@echo -e "\tmake <target>\n"
+	@echo -e "Target\t\tDescription"
+	@echo -e "------\t\t-----------"
+	@grep '## [A-Za-z]* : [A-Za-z]*' $(MAKEFILE_LIST) | sed 's/## //' | sed 's/: /\t\t/'
+	
 .DEFAULT_GOAL := help
