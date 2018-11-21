@@ -1,5 +1,8 @@
 # Sample Makefile
 
+# set shell
+SHELL := /usr/bin/env bash
+
 ## example : This is an example
 example :
 	echo "Hello, World!"
