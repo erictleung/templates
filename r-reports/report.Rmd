@@ -10,7 +10,6 @@ output:
 
 ```{r Setup, include=FALSE}
 # Global parameters
-
 knitr::opts_chunk$set(
     echo = TRUE,
     fig.asp = 0.618,
