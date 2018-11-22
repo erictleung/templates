@@ -23,13 +23,24 @@ knitr::opts_chunk$set(
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla lorem. In vulputate molestie elit vel finibus. Donec ligula purus, varius vel tincidunt id, bibendum nec dolor. Integer venenatis justo non neque euismod, ut ullamcorper justo scelerisque. Cras et diam massa. Duis vel tempor velit, vitae scelerisque metus. Etiam nec scelerisque nisi, ut dictum ligula. Sed quis elit urna. Cras lobortis neque at sapien finibus, eget fringilla elit pulvinar. Cras consequat quis ipsum sit amet mollis. Morbi imperdiet dapibus nibh vel accumsan. Sed fermentum faucibus urna ut sagittis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla
+lorem. In vulputate molestie elit vel finibus. Donec ligula purus, varius vel
+tincidunt id, bibendum nec dolor. Integer venenatis justo non neque euismod, ut
+ullamcorper justo scelerisque. Cras et diam massa. Duis vel tempor velit, vitae
+scelerisque metus. Etiam nec scelerisque nisi, ut dictum ligula. Sed quis elit
+urna. Cras lobortis neque at sapien finibus, eget fringilla elit pulvinar. Cras
+consequat quis ipsum sit amet mollis. Morbi imperdiet dapibus nibh vel
+accumsan. Sed fermentum faucibus urna ut sagittis.
+
+**Last Updated**: `r date()`
+
 
 ## Package Setup
 
 ```{r}
 library(tidyverse)
 ```
+
 
 ## Session Information
 
