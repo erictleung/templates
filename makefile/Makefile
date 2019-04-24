@@ -15,9 +15,11 @@ help :
 	@echo "Usage:"
 	@echo -e "\tmake <target>\n"
 	@echo -e "Target\t\tDescription"
-	@echo -e "------\t\t-----------"
+	@printf '%.s-' {1..6}; \
+		printf '%.s ' {1..10}; \
+		printf '%.s-' {1..11}; echo ''
 	@grep '## [A-Za-z]* : [A-Za-z]*' $(MAKEFILE_LIST) | \
 		sed 's/## //' | \
-		awk -F" : " '{ printf "%-13s%s\n", $$1, $$2}'
+		awk -F" : " '{ printf "%-16s%s\n", $$1, $$2}'
 
 .DEFAULT_GOAL := help
